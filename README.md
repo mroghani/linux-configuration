@@ -12,8 +12,8 @@ cp linux-configuration/.* ~/
 #### 1. Use the package manager to install the following:
 
 * zsh
-    * zsh-syntax
-        * vim
+* zsh-syntax
+* vim
 
 
 ##### Using apt
@@ -38,16 +38,16 @@ curl -fLo ~/.vim/autoload/plug.vim --create-dirs https://raw.githubusercontent.c
 #### 3. Configuration of VIM
 
 * Launch VIM
-    * Type :PlugInstall
-        * Exit (Shift+ZZ)
+* Type :PlugInstall
+* Exit (Shift+ZZ)
 
-            #### 4. Complete Switch from BASH to ZSH
+#### 4. Complete Switch from BASH to ZSH
 
-            first run
+first run
 
-            ```bash
-            sudo vim /etc/passwd
-            ```
+```bash
+sudo vim /etc/passwd
+```
 
-            Then change the your user at the end from /bin/bash to /bin/zsh
+Then change the your user at the end from /bin/bash to /bin/zsh
             
