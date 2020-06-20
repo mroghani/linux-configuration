@@ -1,7 +1,4 @@
-alias pro="cd /run/media/mohammad/160F43F46A7F7F20/Projects/shafigh/P1/frontend"
-alias ins="sudo pacman -S"
-alias shh="ssh romed@185.97.119.59 -i ~/.ssh/server"
-alias pull="ssh romed@185.97.119.59 -i ~/.ssh/server './pull > /dev/null 2>&1 && echo done &'"
+
 #
 # ~/.bashrc
 #
