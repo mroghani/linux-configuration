@@ -13,7 +13,7 @@ fi
 # Initial Setup
 # mkdir -p "$HOME/zsh/.zsh"
 # touch "$HOME/.cache/zshhistory
-# Setup Alias in $HOME/zsh/aliasrc
+# Setup Alias in $HOME/.aliasrc
 # git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ~/powerlevel10k
 # echo 'source ~/powerlevel10k/powerlevel10k.zsh-theme' >>! ~/.zshrc
 
@@ -39,6 +39,8 @@ _comp_options+=(globdots)               # Include hidden files.
 
 # Custom ZSH Binds
 bindkey '^ ' autosuggest-accept
+bindkey "^[[A" history-beginning-search-backward
+bindkey "^[[B" history-beginning-search-forward
 
 # Load aliases and shortcuts if existent.
 [ -f "$HOME/.aliasrc" ] && source "$HOME/.aliasrc"
